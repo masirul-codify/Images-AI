@@ -109,6 +109,9 @@
     .btn-section-primary {
       padding: 10px 15px!important;
       border-radius:20px!important;
+      -webkit-transform: translate(-110%,7%)!important;
+          -ms-transform: translate(-110%,7%)!important;
+              transform: translate(-110%,7%)!important;
     }
   }
 
