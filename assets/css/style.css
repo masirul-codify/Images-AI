@@ -117,6 +117,27 @@ section{
     transition: 0.3s; 
   }
   
+
+.heading-line::before{
+    content: '';
+    display:block;
+    width: 30rem;
+    height:0.1rem;
+    background-color: #9A6BFE;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.heading-line::after{
+    content: '';
+    display:block;
+    width: 2rem;
+    height:0.1rem;
+    padding-top: 0.5rem;
+    background-color: $primary;
+    margin: 0 auto;
+}
   .btn-service{
     margin-top: 3rem;
     margin-bottom:2rem;
@@ -617,4 +638,144 @@ section{
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+
+    /* ============
+    TESTIMONIAL START
+    =============*/
+
+    .testimonial .testimonial-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .testimonial .testimonial-cards .testimonial-card{
+      background: linear-gradient(180deg, rgba(16, 21, 33, 0.8) 0%, rgba(16, 21, 33, 0) 100%);
+      border: 1px solid #2A3D6380; 
+      box-shadow: 0px 10px 40px 0px #0000000A;
+      padding: 10px 18px;
+    }
+
+        
+    .testimonial .testimonial-cards .testimonial-card .card-header{
+      
+    }
+
+    .testimonial .testimonial-cards .testimonial-card .card-header i{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial .testimonial-cards .testimonial-card .card-header h5{
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #fff;
+    }
+
+    .testimonial .testimonial-cards .testimonial-card .card-header h6{
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFFFFFA3;        
+    }
+
+    .testimonial .testimonial-cards .testimonial-card .card-content{
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: left;
+      color: #FFFFFFA3;
+    }
+
+    .testimonial .testimonial-cards .testimonial-card .card-time-date{
+      font-family: 'Inter';
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFFFFF70;
+    }
+
+    .feature-position-relative{
+      position: relative;
+    }
+    .feature-position-absolute-img{
+      position: absolute;
+      bottom: 0;
+      z-index: 9;
+    }
+
+    /* ================
+    CTA SECTION START
+    =================*/
+    .cta-section{
+      border: 1px solid #2A3D6380;
+      box-shadow: 0px 0px 8px 0px #FF74AD4D;
+      background: #0F0E26;
+    }
+
+    /* ================
+    FOOTER START
+    ================== */
+    footer{
+      border-bottom: 1px solid #FFFFFF29;
+    }
+    footer .shadow-bottom{
+      border-bottom: 1px solid #FFFFFF29;
+    }
+    footer .logo .logo-text{
+      padding-right: 50px;
+    }
+
+    @media only screen and (max-width: 767.97px){
+      footer .logo .logo-text{
+        padding-right: 0px;
+      }
+  
+    }
+    footer h6{
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: -0.4099999964237213px;
+      text-align: left;
+      color: #A5A5AECC;
+    }
+
+    footer h5{
+      font-family: 'Inter';
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 18px;
+      letter-spacing: -0.4099999964237213px;
+      text-align: left;
+      color: #FFFFFFCC;
+    }
+
+
+    footer .footer-bottom{
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: -0.4099999964237213px;
+      text-align: center;
+      color: #A5A5AECC;
     }
