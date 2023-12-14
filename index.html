@@ -26,11 +26,12 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: ImagesAI
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Updated: Dec 14 2023 with Bootstrap v5.3.2
   * Template URL: https://devmasirul.com/imagesai/
   * Author: devmasirul.com
   * License: https://devmasirul.com/license/
@@ -46,7 +47,7 @@
     <div class="container-fluid">
       <div class="row">
         <div> 
-          <img src="assets/images/hero/Background pattern decorative.png" alt="" class="position-absolute top-0 left-1/4 w-45 h-1/5">
+          <img src="assets/images/hero/Background pattern decorative.png" alt="" class="position-absolute top-0 left-1/4 w-40 h-1/5">
         </div>
         <nav class="navbar navbar-expand-lg sticky-navbar">
           <div class="container custom-navbar">
@@ -62,11 +63,23 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Features</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Resources</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Resources <i class="bi bi-chevron-down mx-1"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Resources 1</a></li>
+                    <li><a class="dropdown-item" href="#">Resources 2</a></li>
+                  </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Community</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community <i class="bi bi-chevron-down mx-1"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Community 1</a></li>
+                    <li><a class="dropdown-item" href="#">Community 2</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Pricing</a>
@@ -85,11 +98,11 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6 col-md-6">
-          <div class="hero-left">
+          <div class="hero-left ">
             <button type="button" class="btn-hero"><img src="assets/images/hero/auto_awesome.png" alt="" class="img-fluid">Next-Gen Image Editing</button>
             <h1>AI Image <span class="gradient"> Generator </span>  and AI Design Tools</h1>
             <p class="my-5"> The suite for all your creative photo and design editing needs directly in your web browser, on your smartphone, or on your desktop, all free. The only limit is your imagination! </p>
-            <button type="button" class="primary-btn">Join the waitlist<i class="bi bi-arrow-right-short"></i></button>
+            <button type="button" class="primary-btn"><a href=""> Join the waitlist </a><i class="bi bi-arrow-right-short"></i></button>
             <div class="icon-text mb-3">
               <span><i class="bi bi-check-lg"></i>Lorem ipsum dolor</span>
               <span><i class="bi bi-check-lg"></i>Lorem ipsum dolor</span>
@@ -119,6 +132,7 @@
         </div>
       </div>
     </div>
+
   </section>
   <!-- =================
     END HERO SECTION
@@ -594,16 +608,16 @@
             <h6>ImagesAI@gmail.com</h6>
           </div>
           <div class="col-12 col-md-2 col-lg-2 mb-3">
-            <h5>Legal</h5>
-            <h6>Terms & conditions</h6>
-            <h6>Privacy policy</h6>
-            <h6>Hiring</h6>
+            <h5>  Legal </h5>
+            <h6> <a href=""> Terms & conditions </a> </h6>
+            <h6> <a href=""> Privacy policy </a> </h6>
+            <h6>  <a href=""> Hiring </a> </h6>
           </div>
           <div class="col-12 col-md-2 col-lg-2 mb-3">
             <h5>Updates</h5>
-            <h6><i class="bi bi-twitter mx-2"></i>Twitter</h6>
-            <h6><i class="bi bi-instagram mx-2"></i>Instagram</h6>
-            <h6><i class="bi bi-linkedin mx-2"></i>Linkedin</h6>
+            <h6> <a href=""> <i class="bi bi-twitter"></i><span class="mx-2"> Twitter </span>   </a> </h6>
+            <h6>   <a href="">  <i class="bi bi-instagram"></i><span class="mx-2"> Instagram </span>   </a> </h6>
+            <h6>  <a href=""> <i class="bi bi-linkedin"></i><span class="mx-2"> Linkedin </span>   </a> </h6>
           </div>
         </div>
         <div class="row">
@@ -686,3 +700,4 @@ document.addEventListener('DOMContentLoaded', function () {
 </body>
 
 </html>
+

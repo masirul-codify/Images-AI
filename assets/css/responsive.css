@@ -1,0 +1,234 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HRADER TITLE */
+
+@media only screen and (max-width: 767.97px){
+    .header h1{
+      font-size: 38px;
+      line-height: 40px;
+      
+    }  
+    
+  .header p{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px;
+  }
+
+  }
+
+
+
+/* HERO */
+
+@media only screen  and (max-width: 767.97px){
+    .btn-hero{
+      margin-top: 1.5rem;
+      font-size: 12px;
+    }
+
+  .hero-left h1{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 60px;
+    
+  }
+
+  .hero-left p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  
+  .hero-left .icon-text span{
+    font-size: 13px;
+    line-height: 13px;   
+  }
+
+  }
+
+
+/* SERVICE */
+@media only screen and (max-width: 767.97px){
+
+    .services .service-content-right{
+      margin-top: 10px;
+      padding-left: 0px;
+    }
+    
+    .services .service-content p{
+      padding: 0px;
+    }
+    
+    
+    .services .service-content{
+      margin-top: 20px;
+    }
+    
+    .services .service-content h3{
+      font-size: 22px;
+      line-height: 30px;
+    }
+    
+    .services .service-content p{
+      font-size: 12px;
+      line-height: 16px;
+      padding-right: 60px;
+    }
+    
+    
+    
+    .services .service-content-right h3{
+      font-size: 22px;
+      line-height: 30px;
+    }
+    
+    .services .service-content-right p{
+      font-size: 12px;
+      line-height: 15px;
+    }
+    
+    }
+
+/* SEARCH */
+@media only screen and (max-width:767.97px){
+
+    .search-input {
+      padding: 16px;
+      font-size: 12px;
+      border-radius: 8px;
+    }
+
+    .btn-section-primary {
+      padding: 10px 15px;
+      border-radius:20px;
+    }
+  }
+
+
+/* FEATURE */
+
+@media only screen and (max-width: 767.97px){
+      
+    .features .feature-card-left{
+      padding: 8px 22px;
+      border-radius: 8px; 
+
+    }
+
+    .features .feature-card-right{
+      padding: 15px 20px;
+      border-radius: 8px;
+    }
+
+
+    .features  .feature-card-left .btn-section,.feature-card-right .btn-section{
+      margin-top: 2rem;
+      font-size: 12px;
+      line-height: 12px;
+      padding: 8px 15px;
+      border-radius: 15px;
+    }
+
+    .features .feature-card-left,.feature-card-right h3{
+      font-size: 16px;
+      line-height: 16px;
+    }
+    
+    .features .feature-card-left,.feature-card-right p{
+      font-size: 12px;
+      line-height: 16px;
+    }
+ 
+
+    .features .slider-title{
+      font-size: 25px;
+      line-height: 25px;
+    }
+
+
+    .swiper-slide {
+      font-size: 14px;
+    }
+    }
+
+/* TESTIMONIAL */
+@media only screen and (max-width: 767.97px){
+  
+    .testimonial .testimonial-cards .testimonial-card{
+      padding: 8px 15px;
+    }
+  
+   
+    .testimonial .testimonial-cards .testimonial-card .card-header i{
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+  
+    .testimonial .testimonial-cards .testimonial-card .card-header h5{
+      font-size: 12px;
+      line-height: 12px;
+    }
+  
+    .testimonial .testimonial-cards .testimonial-card .card-header h6{
+      font-size: 12px;
+      line-height: 12px;       
+    }
+  
+    .testimonial .testimonial-cards .testimonial-card .card-content{
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  
+    .testimonial .testimonial-cards .testimonial-card .card-time-date{
+      font-size: 12px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      line-height: 12px;
+    }
+  
+  
+  
+      }
+
+/* FOOOTER */
+
+@media only screen and (max-width: 767.97px){
+
+    footer .logo .logo-text{
+      padding-right: 0px;
+    }
+
+  footer h6{
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  footer h5{
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  footer .footer-bottom{
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+
+}
