@@ -37,6 +37,3 @@ const swiper = new Swiper('.mySwiper', {
 })
 
  
-
-// INITIALIZE AOS
-  AOS.init(); 
