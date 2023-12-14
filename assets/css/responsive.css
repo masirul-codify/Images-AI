@@ -1,20 +1,6 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HRADER TITLE */
+/* HEADER TITLE */
 
 @media only screen and (max-width: 767.97px){
     .header h1{
@@ -37,8 +23,8 @@
 
 @media only screen  and (max-width: 767.97px){
     .btn-hero{
-      margin-top: 1.5rem;
-      font-size: 12px;
+      margin-top: 1.5rem!important;
+      font-size: 12px!important;
     }
 
   .hero-left h1{
