@@ -94,6 +94,28 @@ section{
   margin-top: 65px!important;
   margin-bottom: 65px!important;
 }
+
+@keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+}
+
+.fade-right-text {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: fadeRight 1s linear;
+}
+
 /* ALL BUTTON */
 .primary-btn{
   font-family: 'Inter';
@@ -380,9 +402,22 @@ section{
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
+    animation: myAnimation 3s linear infinite;
     
   }
 
+  @keyframes myAnimation {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(10px) scale(1.1);
+    }
+    100% {
+      transform: translateY(0) scale(0.96);
+    }
+  }
+  
   .hero-left p{
     font-family: 'Inter';
     font-size: 18px;
@@ -431,6 +466,7 @@ section{
             justify-content: center;
     position: relative;
     z-index: -1;
+    animation: myAnimation 5s linear infinite;
   }
   .hero-right .hero-absolute-img-top{
     position: absolute;
