@@ -402,19 +402,30 @@ section{
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
-    animation: myAnimation 3s linear infinite;
+    animation: myAnimation 3s;
     
   }
 
   @keyframes myAnimation {
     0% {
-      transform: translateY(0) scale(1);
+      transform: translateX(-10%) scale(1);
+      opacity: 0%;
+    }   
+    20% {
+      transform: translateX(2%) scale(1.03);
+      opacity: 30%;
     }
     50% {
-      transform: translateY(10px) scale(1.1);
+      transform: translateX(0%) scale(1.05);
+      opacity: 50%;
+    }
+    80% {
+      transform: translateX(5%) scale(1);
+      opacity: 100%;
     }
     100% {
-      transform: translateY(0) scale(0.96);
+      transform: translateX(1%) scale(1);
+      opacity: 100%;
     }
   }
   
